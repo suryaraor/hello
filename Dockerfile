@@ -1,5 +1,5 @@
 from ubuntu:14.04
-maintainer David Gageot <david@gageot.net>
+maintainer Surya Rayarao <suryarao.r@gmail.com>
 
 # Prerequisites
 run apt-get update
@@ -18,7 +18,7 @@ run apt-get install -y maven
 run apt-get install -y git
 
 # Clone project
-run git clone https://github.com/dgageot/helloworld.git
+run git clone https://github.com/suryaraor/helloworld.git
 
 # Download most of maven dependencies
 run cd helloworld && mvn dependency:go-offline
